@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab8b1ebf187ca43bfb7f0c015b5382, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  description: Pistol
+  damage: 12
+  maxDamageLevel: 15
+  damageIncreaseRate: 1.3
+  fireRate: 1.5
+  maxFireRateLevel: 20
+  fireRateIncreaseRate: 1.2
+  reloadTime: 3
+  maxReloadLevel: 10
+  reloadIncreaseRate: 1.1
+  magSize: 8
+  maxMagLevel: 15
+  magIncreaseRate: 1
+  range: 4
+  maxRangeLevel: 15
+  rangeIncreaseRate: 1.03
+  accuracy: 13
+  maxAccuracyLevel: 10
+  accuracyIncreaseRate: 1.1
+  projectiles: 1
+  projectileSpeed: 5
+  damageCost: 10
+  reloadSpeedCost: 8
+  fireRateCost: 10
+  accuracyCost: 15
+  magSizeCost: 9
